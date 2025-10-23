@@ -1,5 +1,6 @@
-# add comments - Mei-account2 052711
+# add comments - Mei-account2 0527
 # Configuration for staging environment
+#
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
@@ -13,9 +14,6 @@ app:
   # is only available on an internal endpoint accessible to other applications
   # within a subscription.
   endpoints: public
-  services:
-      arn:
-    - awsEndpointService: com.amazonaws.vpce.us-east-1.vpce-svc-038584aa8a44934a3
   #endpoints: vpe
   
   # number of instances
